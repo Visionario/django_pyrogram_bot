@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+/**/.directory
+.idea/**/*
+*.log
+
+/media/**
+/.idea/
+*.sqlite3
+/**/migrations/*.py
+!/django_pyrogram_bot/bot/__init__.py
+/**/**/migrations/*.py
+!/**/**/__init__.py
+/.directory
+*.env
+
+/logs/**
+/logs/
+*.session
+*.session-journal
+/django_pyrogram_bot/project_django_pyrogram_bot/settings.py
+/django_pyrogram_bot/running_bot_data.json
