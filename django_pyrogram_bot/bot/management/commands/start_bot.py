@@ -57,7 +57,7 @@ class Command(BaseCommand):
         logger.info(f"Stopping bot...")
 
         # Send shutdown message to Admins
-        if bot_settings["NOTIFY_STARTUP_ADMINS"]:
+        if bot_settings["NOTIFY_SHUTDOWN_ADMINS"]:
             for admin in bot_settings["ADMINS"]:
                 client.send_message(
                         chat_id=admin,
