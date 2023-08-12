@@ -25,7 +25,7 @@ PYROGRAM_BOT = {
         "API_HASH": "API_HASH",
         "ADMINS": (123456,),
         "NOTIFY_STARTUP_ADMINS": True,
-        "NOTIFY_SHUTDOWN_ADMIN": True,
+        "NOTIFY_SHUTDOWN_ADMINS": True,
         }
 
 # Application definition
